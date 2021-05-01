@@ -32,6 +32,11 @@ class Category {
         const res = await get('v1/category')
         return res
     }
+
+    static async show() {
+        const res = await get('v1/category/show')
+        return res
+    }
 }
 
 export {

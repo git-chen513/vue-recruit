@@ -43,6 +43,11 @@ class Company {
         })
         return res
     }
+
+    static async findHotCompany() {
+        const res = await get('v1/company/find')
+        return res
+    }
 }
 
 export {
