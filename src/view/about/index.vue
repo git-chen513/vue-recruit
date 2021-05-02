@@ -1,9 +1,8 @@
 <!-- 首页 -->
 <template>
   <div id="app">
-    <!-- <img src="./assets/imgs/logo/logo.png"> -->
     <Top :isnow="1"/>
-    <Search />
+    <!--<Search />-->
     <Nav />
     <Work />
     <Company />
@@ -17,9 +16,6 @@
     </div>
     <ScrollTop />
     <Footer />
-    <!-- <div class="footer">
-      <div><img src="" alt=""></div>
-    </div> -->
   </div>
 </template>
 
@@ -44,7 +40,6 @@ export default {
   },
   data(){
     return {
-     
       activeName:'first',
       friend:["拉勾网","Boss直聘","智联招聘","前程无忧","实习僧","牛客网","人人都是产品经理","教师招聘","广东人才网","研究报告","互联网的一些事","人才招聘","找工作","字典"],
     }
@@ -63,7 +58,6 @@ export default {
 $nx-color:#0470B8;
 $all-padding:0;
 $nx-width:76.25rem;
-
 
 #app{
   min-width:$nx-width; 

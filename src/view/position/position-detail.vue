@@ -44,7 +44,7 @@
               <el-button type="primary" @click="handlePass('form')" v-if="form.state==0 && flag">通 过</el-button>
               <el-button @click="handleFail('form')" v-if="form.state==0 && flag">不通过</el-button>
               <el-button type="primary" @click="handleDelivery('form')" v-permission="{permission:'投递简历'}" v-if="temp == 1">投递简历</el-button>
-              <el-button @click="handleCollect('form')" v-permission="{permission:'收藏职位'}" v-if="temp == 1">收藏职位</el-button>
+              <el-button @click="handleCollect('form')" v-permission="{permission:'添加收藏'}" v-if="temp == 1">收藏职位</el-button>
             </el-form-item>
           </el-form>
         </el-col>

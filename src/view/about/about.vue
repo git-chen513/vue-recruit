@@ -32,7 +32,7 @@
         <template slot-scope="scope">
           <el-button @click.prevent="handleDetail(scope.row)" type="primary" plain size="mini">查看</el-button>
           <el-button @click.prevent="handleDelivery(scope.row)" v-permission="{permission:'投递简历'}" type="success" plain size="mini">投递简历</el-button>
-          <el-button @click.prevent="handleCollect(scope.row)" v-permission="{permission:'收藏职位'}" type="info" plain size="mini">收藏职位</el-button>
+          <el-button @click.prevent="handleCollect(scope.row)" v-permission="{permission:'添加收藏'}" type="info" plain size="mini">收藏职位</el-button>
         </template>
       </el-table-column>
     </el-table>

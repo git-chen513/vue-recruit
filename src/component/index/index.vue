@@ -31,7 +31,7 @@
 	        </div>
 	        <ul class="navlist" id="navNum">
 	          <li :class="{now:isone}"><nuxt-link :to="{name:'index'}">首页</nuxt-link></li>
-	          <li :class="{now:istwo}"><nuxt-link :to="{name:'company-moreCompany'}">公司</nuxt-link></li>
+	          <li :class="{now:istwo}"><nuxt-link :to="{name:'company-moreCompany'}">咨询</nuxt-link></li>
 	          <li><nuxt-link :to="{name:'index'}">校园</nuxt-link></li>
 	          <li><nuxt-link :to="{name:'index'}">言职</nuxt-link></li>
 	        </ul>

@@ -5,7 +5,7 @@
 			<div class="search">
 				<div class="s_box">					
 					<input type="text" name="" class="search_input" tabindex="1" maxlength="64" autocomplete="off" placeholder="搜索职位" v-model="search" >
-					<nuxt-link :to="{name:'workName-name',params:{name:search}}"><input type="sublime" name="" class="search_button" value="搜索" readonly="true"></nuxt-link>	
+					<input type="sublime" name="" class="search_button" value="搜索" readonly="true">	
 				</div>
 				<div class="s_hot" :class="{nosee:list}">
 					热门搜索：
